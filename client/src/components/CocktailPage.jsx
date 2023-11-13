@@ -38,19 +38,21 @@ const CocktailPage = (props) => {
                         <h1 className='font2 text-center '>{oneCocktail.name}</h1>
                         <div className='text-center '>
                             <Link to={`/riffpage/${oneCocktail._id}`}>
-                            <button className='font1 button' >View Riff</button>
+                            <button className='font1 button3' >View Riff</button>
                             </Link>
                         </div>
+                        <div id="container2">
                         <div className='box2'>
-                            <h4  className=' mb-5 mt-4 font6'>Ingredients: {oneCocktail.ingredients}</h4>
-                            <h4 className='font6 mt-5 mb-5'>Technique: {oneCocktail.technique}</h4>
+                            <h4  className=' mb-5 mt-4 font9'>Ingredients: {oneCocktail.ingredients}</h4>
+                            <h4 className='font9 mt-4 mb-5'>Technique: {oneCocktail.technique}</h4>
+                        </div>
                         </div>
                     </div>
                         
             </div>
                 <div className='text-center '>
                     <Link to={'/cocktaillist'}>
-                        <button className='font1 button' >Back</button>
+                        <button className='font1 button3' >Cocktails</button>
                     </Link>
                 </div>
         </div>

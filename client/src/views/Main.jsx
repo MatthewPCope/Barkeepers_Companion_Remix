@@ -15,14 +15,14 @@ const Main = (props) => {
                 <div className=' '>
                     <div className=''>
                         <Link to={'/register'}>
-                            <button className="font1 button"> <span>Become a Member</span></button>
+                            <button className="font1 button3"> Become a Member</button>
                         </Link>
                     </div>
                 </div> 
                 <div className=' '>
                     <div className='columns1'>
                         <Link to={'/login'}>
-                            <button className="font1 button"><span>Member Login</span></button>
+                            <button className="font1 button3">Member Login</button>
                         </Link>
                     </div>
                 </div>
