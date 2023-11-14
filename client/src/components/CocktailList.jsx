@@ -49,7 +49,7 @@ const CocktailList = (props) => {
 
     return (
         <>
-            <h1 className='font2 text-center mb-3 mt-5'>{currentUser.firstName}'s' Cocktails</h1>
+            <h1 className='font2 text-center mb-3 mt-5'>{currentUser.firstName}'s Cocktails</h1>
                 <div className='text-center'>
                     <Link to={'/cocktailform'}>
                         <button className='font1 button3'>Create Cocktail</button>

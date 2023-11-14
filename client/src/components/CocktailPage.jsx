@@ -50,11 +50,18 @@ const CocktailPage = (props) => {
                     </div>
                         
             </div>
+            <div className='d-flex justify-content-center'>
                 <div className='text-center '>
                     <Link to={'/cocktaillist'}>
                         <button className='font1 button3' >Cocktails</button>
                     </Link>
                 </div>
+                <div>
+                    <Link to={`/cocktail/edit/${oneCocktail._id}`}>
+                        <button className=" font1 button3">Edit/Add Riff</button>
+                    </Link>
+                </div>
+            </div>
         </div>
     
     );
