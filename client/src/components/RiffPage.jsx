@@ -47,9 +47,23 @@ const RiffPage = (props) => {
                             </Link>
                         </div>
                         <div id="container2">
-                            <div className='box2'>
-                                <h4  className=' mb-5 mt-4 font6'>Ingredients: {oneCocktail.riffIngredients}</h4>
-                                <h4 className='font6 mt-4 mb-5'>Technique: {oneCocktail.riffTechnique}</h4>
+                            <div className='box4'>
+                                <div className='d-flex justify-content-between align-items-center'>
+                                    <div >
+                                        <p  className=' mb-5 mt-4 font11 me-4'>Ingredients: </p>
+                                    </div>
+                                    <div>
+                                        <p className=' mb-5 mt-4 font12 ms-2'>{oneCocktail.riffIngredients}</p>
+                                    </div>
+                                </div>
+                                <div className='d-flex justify-content-between align-items-center'>
+                                    <div>
+                                        <p className=' mb-5 mt-4 font11 me-2'>Technique: </p>
+                                    </div>
+                                    <div>
+                                        <p className=' mb-5 mt-4 font12 ms-2'>{oneCocktail.riffTechnique}</p>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -72,3 +86,4 @@ const RiffPage = (props) => {
     );
 };
 export default RiffPage;
+

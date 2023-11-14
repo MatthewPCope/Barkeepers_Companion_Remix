@@ -42,6 +42,14 @@
   border: 4px solid black;
   margin:20px;
 }
+.box4 {
+  width: 1040px; 
+  margin: 0px auto;
+  background-color: #574234;
+  border: 4px solid black;
+  padding: 30px;
+  margin:20px;
+}
 
 .font6{
   
@@ -67,6 +75,16 @@
   
   background-size: cover;
 }
+.font{
+  font-family: "Hardsign";
+  font-size: 36pt;
+  color:#e25d4a
+}
+.font12{
+  font-family: "Hardsign";
+  font-size: 28pt;
+  color:#e25d4a
+}
 
 .font1{
   font-family: "Hardsign";
@@ -90,6 +108,16 @@
 }
 .font4{
   
+  color:burlywood
+}
+.font10{
+  font-family: "Hardsign";
+  font-size: 28pt;
+  color:burlywood
+}
+.font11{
+  font-family: "Hardsign";
+  font-size: 36pt;
   color:burlywood
 }
 span{

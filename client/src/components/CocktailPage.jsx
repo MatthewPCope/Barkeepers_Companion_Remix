@@ -42,10 +42,25 @@ const CocktailPage = (props) => {
                             </Link>
                         </div>
                         <div id="container2">
-                        <div className='box2'>
-                            <h4  className=' mb-5 mt-4 font9'>Ingredients: {oneCocktail.ingredients}</h4>
-                            <h4 className='font9 mt-4 mb-5'>Technique: {oneCocktail.technique}</h4>
-                        </div>
+                            <div className='box4'>
+                                    <div className='d-flex justify-content-between align-items-center'>
+                                        <div >
+                                            <p  className=' mb-5 mt-4 font me-4'>Ingredients: </p>
+                                        </div>
+                                        <div>
+                                            <p className=' mb-5 mt-4 font10 ms-2'>{oneCocktail.ingredients}</p>
+                                        </div>
+                                    </div>
+                                    <div className='d-flex justify-content-between align-items-center'>
+                                        <div>
+                                            <p className=' mb-5 mt-4 font me-2'>Technique: </p>
+                                        </div>
+                                        <div>
+                                            <p className=' mb-5 mt-4 font10 ms-2'>{oneCocktail.technique}</p>
+                                        </div>
+                                    </div>
+                                        
+                            </div>
                         </div>
                     </div>
                         
