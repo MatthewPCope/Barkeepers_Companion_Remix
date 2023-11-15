@@ -3,10 +3,12 @@ import axios from 'axios';
 import { useNavigate,useParams } from "react-router-dom";
 import {Link} from 'react-router-dom';
 
+
 const CocktailPage = (props) => {
     
     const {id} = useParams(); 
     const [oneCocktail, setOneCocktail] = useState({});
+    
     const navigate = useNavigate();
     
     useEffect(() => {
@@ -29,7 +31,12 @@ const CocktailPage = (props) => {
     //             console.log(err);
     //         })
     // }
-        
+   
+    
+    
+    
+
+
     return (
         <div>
             <div id='container' className='text-center mb-3 mt-5'>

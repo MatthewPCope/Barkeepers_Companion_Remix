@@ -10,6 +10,7 @@ import CocktailPage from './components/CocktailPage.jsx'
 import EditCocktail from './components/EditCocktail.jsx'
 import RiffPage from './components/RiffPage.jsx'
 
+
 function App() {
     
   return (
@@ -24,6 +25,7 @@ function App() {
           <Route path="/cocktail/:id" element={<CocktailPage/>}/>
           <Route path="/riffpage/:id" element={<RiffPage/>}/>
           <Route path="/cocktail/edit/:id" element={<EditCocktail />}/>
+          
         </Routes>
       
     </>

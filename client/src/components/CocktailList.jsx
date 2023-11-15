@@ -10,6 +10,7 @@ const CocktailList = (props) => {
     const [cocktailList, setCocktailList] = useState([]);
     const { currentUser } = useContext(userContext);
     
+    
     const navigate = useNavigate()
     
     useEffect(()=>{
@@ -24,6 +25,10 @@ const CocktailList = (props) => {
             console.log(err);
         })
     }, [])
+
+    
+
+
             
 
     const deleteCocktail = (idFromBelow) => {

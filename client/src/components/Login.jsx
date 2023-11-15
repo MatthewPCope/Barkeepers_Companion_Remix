@@ -68,7 +68,7 @@ const Login = (props) => {
                         
                         <div className='text-center mt-3'>
                             <Link to={'/register'}>
-                                <button className='  button3' >Don't Have an Account?</button>
+                                <button className='  button3' >Not a Member Yet?</button>
                             </Link>
                         </div>
                         

@@ -90,7 +90,7 @@ const Register = (props) => {
                                 </div>
                                 <div className='text-center mt-3'>
                                     <Link to={'/login'}>
-                                        <button className='  button3' >Already Have an Account?</button>
+                                        <button className='  button3' >Already a Member?</button>
                                     </Link>
                                 </div>
                                 
