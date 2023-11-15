@@ -14,7 +14,7 @@ const RiffPage = (props) => {
             .then( (res) => {
                 console.log(res.data);
                 if(res.data.riffName == ""){
-                    alert("You have not added a riff yet!")
+                    navigate(`/cocktail/edit/${res.data._id}`)
                 }
                 setOneCocktail(res.data);
                 
@@ -23,6 +23,8 @@ const RiffPage = (props) => {
                 console.log(err);
             });
         }, [id]);
+
+    
     
     //     const deleteCocktail = () => {
     //     axios.delete(`http://localhost:8000/api/cocktail/${id}`)

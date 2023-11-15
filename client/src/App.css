@@ -2,18 +2,15 @@
 
 #container{
   margin:0px auto;
-  
-  
   display: flex;
   justify-content: center;
   align-items:center;
   margin-top: 20px;
   
-}
+} 
 
 #container2{
   margin:0px auto;
-  
   display: flex;
   justify-content: center;
   align-items:center;

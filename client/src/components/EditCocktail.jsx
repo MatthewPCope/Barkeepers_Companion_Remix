@@ -58,7 +58,7 @@ const EditCocktail = (props) => {
     
     return (
         <>
-        <div id="container" className=' box'>
+        <div id="container" className=' mt-5 box'>
             <form className="" onSubmit={onSubmitHandler}>
                 < div className=''>
                     < div className='mt-3'>
